@@ -1,5 +1,8 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  /* background: linear-gradient(120deg, rgb(27, 27, 24), rgb(82, 70, 70)); */
+   background: linear-gradient(9deg, rgb(76, 127, 151), rgb(24, 20, 20)); 
+  
   height: 70 px;
   display: flex;
   justify-content: center;
@@ -16,6 +19,7 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  
 }
 
 .navbar-logo {
@@ -27,6 +31,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .fa-typo3 {
@@ -56,6 +61,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-family: 'Yomogi', cursive;
 }
 
 .nav-links:hover {
@@ -69,6 +75,7 @@
 
 .nav-links-mobile {
   display: none;
+  
 }
 
 .menu-icon {
@@ -148,6 +155,7 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    
   }
 
   .nav-links-mobile:hover {

@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Checkout the Amazing Features </h1>
+      <h1>Articles Related to Some Famous Crypto's </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Cards() {
               src='images/img-3.jpg'
               text='Related article related to Cardano'
               label='Cardano'
-              path='/services'
+              path='https://www.moneycontrol.com/news/business/cryptocurrency/cardano-most-actively-developed-cryptocurrency-in-2018-bitcoin-not-even-in-top-50-3350361.html'
             />
             <CardItem
               src='images/img-4.jpg'
               text='Related article related to Dogecoin'
               label='Dogecoin'
-              path='/products'
+              path='https://www.moneycontrol.com/news/tags/dogecoin.html/news/'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Related article related to Ripple XPR'
               label='Ripple XPR'
-              path='/products'
+              path='https://www.moneycontrol.com/news/tags/ripple.html/news/'
             />
           </ul>
         </div>

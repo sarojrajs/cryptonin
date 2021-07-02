@@ -1,10 +1,14 @@
 .cards {
   padding: 2rem;
-  background: rgb(236, 233, 233);
+  background : rgb(212, 211, 211);
+  font-style: italic;
 }
 
 h1 {
   text-align: center;
+  font-family: 'Fuggles', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 50px;
 }
 
 .cards__container {
@@ -19,10 +23,14 @@ h1 {
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  
 }
 
 .cards__items {
   margin-bottom: 20px;
+
+  
+  
 }
 
 .cards__item {
@@ -30,6 +38,9 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 15px;
+  background: white;
+
+  
 }
 
 .cards__item__link {
@@ -42,6 +53,8 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  
+  
 }
 
 .cards__item__pic-wrap {
@@ -49,6 +62,8 @@ h1 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
+  
+  
 }
 
 .fade-img {
@@ -68,6 +83,9 @@ h1 {
   color: #fff;
   background-color: #1f98f4;
   box-sizing: border-box;
+  font-family: 'Bona Nova', serif;
+font-family: 'Fuggles', cursive;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 .cards__item__img {

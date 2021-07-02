@@ -22,6 +22,7 @@ function Navbar() {
   const signOut=()=>{
     auth.signOut()
     history.push('/sign-up')
+   
   }
 
   useEffect(() => {
@@ -35,7 +36,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            CRYPTOINN  
+            KRYPTOINN  
             <i class='fas fa-coins' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
