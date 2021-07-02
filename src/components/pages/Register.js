@@ -32,20 +32,36 @@ function Register() {
     }
 
     return (
-      <div className='Register'>
+      <li className='Register'>
         <div className="login"> 
-            <h1>REGISTER </h1>
+        <h1>REGISTER </h1>
+            <div className="email-container">
                 <p>Email</p>
-                <input type='email' placeholder='Email' value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
+                <input type='email' placeholder='Email' value={email} onChange={(e)=>{
+                setEmail(e.target.value)
+                }}/>
+            
+            <div classname="password-container">
                 <p>Password</p>
-                <input type='password' placeholder='Password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
+                <input type='password' placeholder='Password' 
+                    value={password} onChange={(e)=>{
+                    setPassword(e.target.value)
+                    }}
+                />
+            
+            <div>
                 <p>Confirm Password</p>
                 <input type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e)=>{
-                    setConfirmPassword(e.target.value)}}/>
-                <button type="register">register</button>
+                    setConfirmPassword(e.target.value)
+                }}/>
+            </div>
+            </div>
+            </div>
+            <div className="btn">
+            <button onClick={registerHandler}>Register</button>
             </div>
         </div>
-        
+        </li>
     )
 }
 
