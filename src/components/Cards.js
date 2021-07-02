@@ -13,13 +13,13 @@ function Cards() {
               src='images/img-9.jpg'
               text='Related article related to Bitcoins'
               label='Bitcoin'
-              path='/services'
+              path='https://zeenews.india.com/tags/bitcoin.html'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Related article related to Ethereum'
               label='Ethereum'
-              path='/services'
+              path='https://www.moneycontrol.com/news/tags/ethereum.html/news/'
             />
           </ul>
           <ul className='cards__items'>

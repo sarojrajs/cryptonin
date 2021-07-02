@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import './Coin.css'
+import './CoinPage.css'
 import Coin from '../Coin';
 import { auth } from '../../firebase';
 import { useHistory } from 'react-router-dom';

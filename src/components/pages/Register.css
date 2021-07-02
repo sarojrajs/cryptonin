@@ -1,0 +1,33 @@
+.Register{
+  background: linear-gradient(120deg, rgb(236, 236, 62), rgb(241, 46, 79));
+  padding:200px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.login{
+  font-size: 20px;
+  font-family:monospace;
+  font-weight: bolder;
+  
+}
+.email-container{
+  color: rgb(220, 236, 74);
+  font-size: initial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  text-align: center;
+  
+  
+}
+.email-container input{
+  padding: 10px 10px;
+  
+}
+.password-container input{
+  padding: 10px 10px;
+ 
+}
+.btn{
+  text-align: center;
+}

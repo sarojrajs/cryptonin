@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Register.css';
 import { auth } from '../../firebase'
 
 function Register() {
@@ -31,29 +32,35 @@ function Register() {
     }
 
     return (
-        <div>
-            <div>
+      <li className='Register'>
+        <div className="login"> 
+            <div className="email-container">
                 <p>Email</p>
                 <input type='email' placeholder='Email' value={email} onChange={(e)=>{
                 setEmail(e.target.value)
                 }}/>
-            </div>
-            <div>
+            
+            <div classname="password-container">
                 <p>Password</p>
                 <input type='password' placeholder='Password' 
                     value={password} onChange={(e)=>{
                     setPassword(e.target.value)
                     }}
                 />
-            </div>
+            
             <div>
                 <p>Confirm Password</p>
                 <input type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e)=>{
                     setConfirmPassword(e.target.value)
                 }}/>
             </div>
+            </div>
+            </div>
+            <div className="btn">
             <button onClick={registerHandler}>Register</button>
+            </div>
         </div>
+        </li>
     )
 }
 

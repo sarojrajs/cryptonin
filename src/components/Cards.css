@@ -1,6 +1,6 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
+  padding: 2rem;
+  background: rgb(236, 233, 233);
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -22,14 +22,14 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .cards__item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .cards__item__link {
