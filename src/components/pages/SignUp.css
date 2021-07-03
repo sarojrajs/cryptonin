@@ -1,6 +1,6 @@
 .Login{
     background-color: #d6d6d6;
-    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    background-image: url("https://coincentral.com/wp-content/uploads/2018/06/featured-image.jpeg");
    
      padding: 125px;
      display: flex;
@@ -11,9 +11,9 @@
      font-size: 15px;
      font-family:monospace;
      font-weight: bolder;
-     weight:200px;
-     height:400px;
-     background:rgba(202, 202, 202, 0.3);
+     width :350px;
+     height:500px;
+     background:rgba(255, 255, 255, 0.3);
      padding:20px 40px 20px 20px;
      overflow:hidden;
      
@@ -21,6 +21,7 @@
    .sign-in p{
      font-size: 20px;
      margin:15px 0;
+     font-family: 'Gloria Hallelujah', cursive;
    }
    .sign-in input{
      font-size: 15px;
@@ -38,7 +39,7 @@
          padding: 10px 10px;
          width:50%;
          border-radius: 15px;
-         
+         font-family: 'Gloria Hallelujah', cursive;
          
    }
    .sign-in h1{

@@ -13,7 +13,7 @@ function Cards() {
               src='images/img-9.jpg'
               text='Related article related to Bitcoins'
               label='Bitcoin'
-              path='https://zeenews.india.com/tags/bitcoin.html'
+              path='https://www.moneycontrol.com/news/tags/bitcoin.html/news/'
             />
             <CardItem
               src='images/img-2.jpg'
