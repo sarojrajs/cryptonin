@@ -1,8 +1,11 @@
 .coin-container {
     display: flex;
     justify-content: center;
+    cursor: pointer;
   }
-  
+  .coin-name:hover{
+    text-decoration: #FFFFFF underline;
+  }
   .coin-row {
     display: flex;
     flex-direction: row;
