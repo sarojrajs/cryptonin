@@ -45,6 +45,7 @@
   
   .coin-price {
     width: 110px;
+    text-align: left;
   }
   
   .coin-volume {

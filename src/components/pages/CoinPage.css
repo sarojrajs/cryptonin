@@ -13,6 +13,8 @@
     padding: 50px; 
     color: #fff;
     background-color: #161515;
+    width: 100%;
+    min-height: 100vh;
   }
   
   .coin-search {

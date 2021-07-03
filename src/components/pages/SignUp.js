@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import './SignUp.css'
 import '../../App.css';
-import { auth } from '../../firebase';
+import { auth, googleProvider } from '../../firebase';
+import googleIcon from '../../images/google-logo-9827.png'
 
 export default function SignUp() {
   const [email, setEmail] = useState('')
@@ -24,6 +25,14 @@ export default function SignUp() {
       console.log(err)
     })
     resetValues()
+  }
+
+  const loginWithGoogle=()=>{
+    auth.signInWithPopup(googleProvider).then((userCredentials)=>{
+      console.log(userCredentials)
+    }).catch(err=>{
+      alert(err.message)
+    })
   }
 
   auth.onAuthStateChanged((user) => {
@@ -48,8 +57,11 @@ export default function SignUp() {
               setPassword(e.target.value)
             }}
           />
-          <div>
+          <div className='authButtons'>
             <button onClick={loginHandler}>Sign In</button>
+            <div className='googleImage' onClick={loginWithGoogle}>
+              <img src={googleIcon} alt='' />
+            </div>
           </div>
         </div>
       </div>
