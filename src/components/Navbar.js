@@ -66,7 +66,17 @@ function Navbar() {
                     </Link>
                   </li>
             }
-           
+            {
+              !showSignUp &&
+                  <li className='nav-item'>
+                    <Link to='/converter' className='nav-links' onClick={closeMobileMenu}>
+                      Converter
+                    </Link>
+                  </li>
+            }
+
+          {
+            showSignUp?
             <li>
               <Link
                 to='/sign-up'
@@ -75,7 +85,16 @@ function Navbar() {
              >
                 Sign Up
               </Link>
-            </li>
+            </li>:
+            <li>
+            <button
+              className='nav-links-mobile'
+              onClick={signOut}
+           >
+              Sign Out
+            </button>
+          </li>
+          } 
           </ul>
           {
             showSignUp ?( button && <Button buttonStyle='btn--outline'>SIGN UP</Button>

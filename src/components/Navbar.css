@@ -4,7 +4,7 @@
    background: linear-gradient(9deg, rgb(76, 127, 151), rgb(24, 20, 20)); 
   /* background: transparent; */
   box-shadow: 0 0 6px rgba(0,0,0,0.9);
-  height: 70 px;
+  height: 100 px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+
   }
 
   .menu-icon {
